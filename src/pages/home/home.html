@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>平衡轮测试</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p class="question" [innerHTML]="currentQuestion ? count + '. ' + currentQuestion.question : ''"></p>
+  <button ion-button block outline large (click)="clickOnYes()">
+    是
+  </button>
+  <button ion-button block outline large (click)="clickOnNo()">
+    否
+  </button>
+</ion-content>

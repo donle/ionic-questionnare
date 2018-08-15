@@ -1,0 +1,15 @@
+page-result {
+    /deep/ .scroll-content {
+        display: flex;
+        align-items: center;
+    }
+
+    ion-title {
+        text-align: center;
+    }
+
+    #result {
+        width: 90vw;
+        height: 90vh;
+    }
+}
